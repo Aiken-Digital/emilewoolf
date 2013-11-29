@@ -1,0 +1,546 @@
+/* CSS Document */
+
+* {
+  font-family: 'Lucida Grande', 'Lucida Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #49362b;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1d9ed3;
+}
+
+  a:hover {
+  	color: #1b378b;
+  	text-decoration: none;
+  }
+  
+.clear {
+  clear: both;
+}
+
+/* Header */
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0;
+  
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+  .navbar-default {
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, .85);
+  }
+  
+.navbar-brand:hover .logo {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+  
+.navbar-brand .logo {
+  width: auto;
+  height: 70px;
+  
+  -webkit-transition: all .8s ease-in-out;
+  -moz-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+  
+.navbar-brand .typemark {
+  width: auto;
+  height: 14px;
+  margin-left: 7px;
+}
+
+.nav {
+  text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+  .nav li a {
+    font-size: 13px; /* 14px */
+    font-family: 'Gotham HTF', sans-serif;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 40px 20px 0;
+    padding: 0 0 5px 0;
+    font-weight: 500 ;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+    .nav li a:hover {
+  	  background: none;
+  	  color: #1d9ed3;
+  	  border-bottom: 2px dashed #1d9ed3;
+    }
+    
+  .nav li .current {
+    color: #1b378b;
+    border-bottom: 1px solid #1b378b;
+  }
+  
+    .nav li .current:hover {
+      color: #1b378b;
+      border-bottom: 1px solid #1b378b;
+    }
+    
+/* Hero (index.html) */
+
+.jumbotron-landing {
+  height: 560px;
+  background: url(../img/home/hero-bg.jpg) no-repeat;
+  margin-bottom: 0;
+}
+
+  .jumbotron-landing .elevator {
+  	margin-top: 82px; /* 150px from base of Header */
+  }
+  
+    .jumbotron-landing .elevator h1 {
+      font: 700 2em 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 36px / 14px */
+      font-weight: 700;
+      color: #222;
+      letter-spacing: -2px;
+      margin-bottom: 20px;
+    }
+    
+    .jumbotron-landing .elevator p {
+      font-size: .7619047619em; /* 16px / 21px */
+      font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #49362b;
+    }
+    
+  .jumbotron-landing .btn-default {
+  	/*background: #ef712b;*/
+  	font-size: .875em; /* 14px / 16px */
+  	color: #fff;
+  	letter-spacing: 1.5px;
+  	text-transform: uppercase;
+  	border: 1px solid #d84422;
+  	margin-top: 10px;
+  	padding: 12px 24px 10px;
+  	
+  	/*background-image: -webkit-linear-gradient(#ef712b, #de3815);
+  	background-image: -moz-linear-gradient(#ef712b, #de3815);
+  	background-image: -o-linear-gradient(#ef712b, #de3815);
+  	background-image: linear-gradient(#ef712b, #de3815);*/
+  }
+  
+    .jumbotron-landing .btn-default:hover {
+      background-image: -webkit-linear-gradient(#ef902b, #de3815);
+      background-image: -moz-linear-gradient(#ef902b, #de3815);
+      background-image: -o-linear-gradient(#ef902b, #de3815);
+      background-image: linear-gradient(#ef902b, #de3815);
+    }
+
+
+.viewallcourses-btn{
+  padding: 14px 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  font-size: 15px;
+  margin-top: 30px;
+  opacity: 0.9;
+}
+
+.marginleft-20 {
+	margin-left: 20px;
+}
+
+
+/* Content Block 1 (index.html) */
+
+.cb-1 {
+  padding: 60px 0;
+}
+
+  .cb-1 h1 {
+  font-weight: 300;
+  font-size: 1.7142857143em; /* 24px / 14px */
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  }
+  
+  .cb-1 .featured-courses {
+    margin-bottom: 50px;
+  }
+  
+  .cb-1 .popular-titles {
+    
+  }
+
+  .cb-1 .book-item {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  	background: #f5f5f5;
+  	
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	
+  	-webkit-border-radius: 6px;
+  	-moz-border-radius: 6px;
+  	border-radius: 6px;
+  	
+  	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+  }
+  
+    .cb-1 .book-item:hover {
+      top: -7px;
+    }
+  
+  .cb-1 .book-item-dark-blue {
+  	background: #0b7ab7;
+  }
+  
+  .cb-1 .book-item-light-blue {
+  	background: #098cb0;
+  }
+  
+  .cb-1 .book-item-light-teal {
+  	background: #04999b;
+  }
+  
+  .cb-1 .book-item-dark-teal {
+  	background: #07a57d;
+  }
+  
+  .cb-1 .book-item-dark-green {
+  	background: #0db14b;
+  }
+  
+  .cb-1 .book-item-light-green {
+  	background: #57af47;
+  }
+  
+  .cb-1 .course-code,
+  .cb-1 .book-title,
+  .cb-1 .publication-year {
+  	display: block;
+  }
+  
+  .cb-1 .course-code {
+    font: 700 1.4285714286em 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 20px / 14px */
+  	color: #fff;
+  	margin-bottom: 7px;
+  	padding: 15px 15px 0 25px;
+  }
+  
+  .cb-1 .book-title {
+    font-weight: 400;
+    font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	color: #fff;
+  	letter-spacing: 1.3px;
+  	text-transform: uppercase;
+  	line-height: 1.5;
+  	margin-bottom: 7px;
+  	padding: 0 15px 0 25px;
+  }
+  
+  .cb-1 .publication-year {
+  	font-size: .8571428571em; /* 12px / 14px */
+  	color: #fff;
+  	opacity: .67;
+  	padding: 0 15px 15px 25px;
+  }
+  
+  .cb-1 .book-spine {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 10px;
+  	height: 100%;
+  	
+  	background: rgba(255, 255, 255, .25);
+  }
+
+
+.cb-1 h5 {
+	color: #ccc;
+}
+
+#box1-img {
+  background: url(../img/home/accountant.jpg);
+  background-size: 100%;
+}
+
+#box2-img {
+  background: url(../img/home/graduate.jpg) 0px -10px;
+  background-size: 100%;
+}
+
+#box3-img {
+  background: url(../img/home/serious.jpg);
+  background-size: 100%;
+}
+
+#box4-img {
+  background: url(../img/home/twoguys.jpg)-52px -80px;
+  background-size: 141%;
+}
+
+#h1-title {
+  font-weight: 100;
+  font-size: 2.1em;
+  text-align: center;
+  margin-top: 31px;
+}
+
+a.shopebooks-btn:link,
+a.shopebooks-btn:active,
+a.shopebooks-visited {
+  width: 300px;
+  height: 46px;
+  padding: 12px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Footer */
+
+footer {
+background: url(../img/bg-map-eu.png);
+padding: 60px 0 30px;
+background-size: 100%;
+}
+
+  footer p {
+    font-size: .9285714286em; /* 13px / 14px */
+  	color: #fff;
+  	margin: 0;
+  }
+  
+  footer .heading {
+    font-size: 1.0714285714em; /* 15px / 14px */
+    font-family: 'Gotham HTF', sans-serif;
+    letter-spacing: 1.2px;
+  	margin-bottom: 15px;
+  	font-weight: 500;
+  	color: rgba(255,255,255,0.45);
+  }
+  
+  footer a {
+    font-size: .9285714286em; /* 13px / 14px */
+  	color: #dbdbdb;
+  	
+  	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+  }
+  
+    footer a:hover {
+      color: #eee;
+    }
+  
+  footer p:last-child {
+  	margin-bottom: 0;
+  }
+  
+  footer ul {
+  	margin: 0;
+  	padding: 0;
+  }
+  
+  footer li {
+  	list-style: none;
+  	margin-bottom: 2px;
+  }
+  
+ 
+.footer-img {
+  width: 40%;
+  opacity: 0.7;
+  -webkit-filter: grayscale(100%) brightness(1000%);
+  margin-top: -10px;
+  margin-left: -4px;
+}
+
+.footer-tagline {
+  width: 64%;
+  color: #eee;
+  font-size: 12px;
+  margin-top: 15px;
+  line-height: 1.9;
+}
+
+.text-copyright-pos {
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 50px;
+}
+
+.text-copyright {
+  font-family: gotham htf;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+/* Cards */
+
+.card {
+  border: 1px solid #e2e2e2;
+  
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+  .card:hover {
+  	border: 1px solid #ccc;
+  }
+
+  .card .img-placeholder {
+  width: 100%; /* 253px / 263px */
+  height: 160px;
+  background: #f5f5f5;
+  	
+  	-webkit-border-radius: 3px 3px 0 0;
+  	-moz-border-radius: 3px 3px 0 0;
+  	border-radius: 3px 3px 0 0;
+  }
+  
+  .card .content {
+  	padding: 15px;
+  }
+  
+  .card h1 {
+    font: 400 1.1428571429em 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 16px / 14px */
+    color: #1d9ed3;
+    letter-spacing: 1px;
+    border: 0;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+  }
+    
+  .card p {
+  	font-size: .8571428571em; /* 12px / 14px */
+  	color: #777;
+  }
+  
+  .card p:last-child {
+  	margin-bottom: 0;
+  }
+  
+  
+ /* About us page */
+ 
+ .team-wrap{
+ 	margin:0 auto;
+ 	position: relative;
+ 	width: 1140px;
+ }
+ 
+ .team-ol{
+ 	padding: 0;
+ 	margin: 0;
+ 	margin: 0 auto;
+ 	width: 1140px;
+ }
+ 
+ .team-ol li {
+ 	list-style-type:none;
+ 	padding: 0;
+ 	margin: 0;
+ 	width: 320px;
+ 	float: left;
+ 	margin-right: 80px;
+ }
+ 
+ .team-img {
+ 	-webkit-border-top-left-radius: 6px;
+ 	-webkit-border-top-right-radius: 6px;
+ 	-moz-border-radius-topleft: 6px;
+ 	-moz-border-radius-topright: 6px;
+ 	border-top-left-radius: 6px;
+ 	border-top-right-radius: 6px;
+ }
+ 
+ .team-ol li.last{
+   list-style-type:none;
+   padding: 0;
+   margin: 0;
+   width: 320px;
+   float: left;
+   margin-right: 0px;
+ }
+  
+ .team-txt-box {
+ 	position:relative;
+ 	background-color: #f8f5f5;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	padding: 20px;
+ 	
+ 	-webkit-border-bottom-right-radius: 6px;
+ 	-webkit-border-bottom-left-radius: 6px;
+ 	-moz-border-radius-bottomright: 6px;
+ 	-moz-border-radius-bottomleft: 6px;
+ 	border-bottom-right-radius: 6px;
+ 	border-bottom-left-radius: 6px;
+ }
+ 
+ .team-txt-box:hover {
+ 	background-color: #ebf0f5;
+ 	
+ 	-webkit-transition: all .3s ease-in-out;
+ 	-moz-transition: all .3s ease-in-out;
+ 	-o-transition: all .3s ease-in-out;
+ 	transition: all .3s ease-in-out;
+ }
+
+h1.marginbottom-0 {
+	margin-bottom: 0px;
+	color: #000;
+}
+
+.team-title {
+	color: #777;
+}
+
+
+.team-desc {
+	font-size: 0.8125em;
+	text-transform: none;
+	font-weight: 300;
+	color: #b5b5b5;
+	line-height: 1.5;
+}
+
+hr.team-hr {
+	border-color: #fff;
+}
+
+
+/* Buttons */
+
+.btn-default {
+  background: none;
+  border-color: #ccc;
+}
