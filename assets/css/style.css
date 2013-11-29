@@ -538,6 +538,55 @@ hr.team-hr {
 }
 
 
+/* Contact Us */
+
+.contact-title {
+	font: 400 1.1428571429em 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 16px / 14px */
+	color: #1d9ed3;
+	letter-spacing: 1px;
+	border: 0;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
+
+.contact-add-box .contact-map-add{
+	background-color: #fcfcfc;
+	color: #b4b4b4;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	line-height: 1.7;
+	letter-spacing: 0.5px;
+	
+}
+
+.contact-add-box .contact-map-add b {
+	font-size: 1.625em;
+	font-style: italic;
+	color: #333;
+	font-family: 'Gotham HTF', sans-serif;
+	font-weight: 100;
+}
+
+.contact-txtarea {
+	resize:none;
+}
+
+img.contact-map-style {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.contact-map-add {
+	padding: 30px;
+}
+
 /* Buttons */
 
 .btn-default {
