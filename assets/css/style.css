@@ -11,6 +11,11 @@ p {
 
 a {
   color: #1d9ed3;
+  
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
   a:hover {
@@ -71,13 +76,13 @@ a {
 }
 
   .nav li a {
-    font-size: 13px; /* 14px */
+    font-size: .9285714286em; /* 13px / 14px */
     font-family: 'Gotham HTF', sans-serif;
     letter-spacing: 1.2px;
     text-transform: uppercase;
     margin: 40px 20px 0;
     padding: 0 0 5px 0;
-    font-weight: 500 ;
+    font-weight: 500;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -189,18 +194,15 @@ a {
 }
 
   .cb-1 h1 {
-  font-weight: 300;
-  font-size: 1.7142857143em; /* 24px / 14px */
-  margin: 0 0 20px;
-  padding-bottom: 12px;
+    font-weight: 700;
+    font-size: 2em; /* 28px / 14px */
+    letter-spacing: -1px;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
   }
   
   .cb-1 .featured-courses {
     margin-bottom: 50px;
-  }
-  
-  .cb-1 .popular-titles {
-    
   }
 
   .cb-1 .book-item {
@@ -292,14 +294,15 @@ a {
   	background: rgba(255, 255, 255, .25);
   }
 
-
-.cb-1 h5 {
-	color: #ccc;
-}
+  .cb-1 h5 {
+    font-weight: 300;
+    color: #aaa;
+  }
 
 /* Content Block 2 (education/index.html) */
 
 .cb-2 {
+  background: #f5f5f5;
   padding: 60px 0;
 }
 
@@ -310,6 +313,41 @@ a {
   .cb-2 .row:last-child {
   	margin-bottom: 0;
   }
+  
+/* Content Block 3 (education/index.html) */
+
+.cb-3 {
+  border-bottom: 1px solid #ddd;
+  padding: 60px 0;
+}
+
+  .cb-3 .course-elevator {
+  	font-size: 1.2857142857em; /* 18px / 14px */
+  	line-height: 1.5;
+  }
+  
+    .cb-3 .course-elevator .col-md-6 {
+      font-size: .7777777778em; /* 14px / 18px */
+    }
+    
+    .cb-3 .course-elevator .col-md-6.left p,
+    .cb-3 .course-elevator .col-md-6.right p {
+      color: #777;
+    }
+    
+    .cb-3 .course-elevator .col-md-6.left {
+      padding-left: 0;
+    }
+    
+    .cb-3 .course-elevator .col-md-6.right {
+      padding-right: 0;
+    }
+    
+/* Content Block 4 (education/courses/single-course/index.html) */
+
+.cb-4 {
+  padding: 60px 0;
+}
 
 #box1-img {
   background: url(../img/home/accountant.jpg);
@@ -332,10 +370,9 @@ a {
 }
 
 #h1-title {
-  font-weight: 100;
-  font-size: 2.1em;
+  font: 400 2em 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 28px / 14px */
   text-align: center;
-  margin-top: 31px;
+  margin-top: 40px;
 }
 
 a.shopebooks-btn:link,
@@ -479,6 +516,70 @@ background-size: 100%;
   
   .card p:last-child {
   	margin-bottom: 0;
+  }
+  
+  .card-info:hover {
+  	border: 1px solid #ddd;
+  }
+  
+  .card-info .header {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(242, 242, 242));
+    border-bottom: 1px solid #ddd;
+  	padding: 12px 15px;
+  	
+  	-webkit-border-radius: 4px 4px 0 0;
+  	-moz-border-radius: 4px 4px 0 0;
+  	border-radius: 4px 4px 0 0;
+  }
+  
+  .card-info .content {
+  	padding: 20px;
+  }
+  
+  .card-info ul {
+    margin-bottom: 15px;
+  	padding: 0;
+  }
+  
+  .card-info ul:last-child {
+  	margin-bottom: 0;
+  }
+  
+    .card-info ul li {
+      float: left;
+  	  display: inline-block;
+  	  font-size: .9285714286em; /* 13px / 14px */
+    }
+    
+    .card-info ul .glyph {
+      margin-right: 10px;
+    }
+    
+    .card-info ul .phone-text {
+      position: relative;
+      top: 8px;
+      color: #777;
+    }
+    
+    .card-info ul .mail-text {
+      position: relative;
+      top: 6px;
+    }
+    
+  
+  .card-info img.phone {
+  	width: auto;
+  	height: 36px;
+  }
+  
+  .card-info img.mail {
+  	width: auto;
+  	height: 28px;
+  }
+  
+  .card-info h1 {
+    color: #222;
+    margin: 0;
   }
   
   
