@@ -348,6 +348,123 @@ a.shopebooks-visited {
   display: block;
 }
 
+
+/* Content Block 99 (about.html) */
+
+.cb-99 {
+  padding: 60px 0 0 0;
+}
+
+  .cb-99 h1 {
+  font-weight: 300;
+  font-size: 1.7142857143em; /* 24px / 14px */
+  padding-bottom: 12px;
+  }
+  
+  .cb-99 .featured-courses {
+    margin-bottom: 50px;
+  }
+  
+  .cb-99 .blue-container {
+    position: relative;
+    width: 100%;
+    background: #098cb0;
+  	padding: 10px 80px 10px 120px;
+  	margin: 30px 0 100px 0;
+  	  	
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	
+  	-webkit-border-radius: 6px;
+  	-moz-border-radius: 6px;
+  	border-radius: 6px;
+  	
+  	-webkit-transition: all .2s ease-in-out;
+  	-moz-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+  	
+  }
+  
+  .blue-container-style {
+    color: #d5edf3;
+    font-size: 0.875em;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+  	
+  }
+  
+  .marginright-100 {
+  	margin-right:100px
+  }
+  
+  .margin-top-100 {
+    margin-top:-100px
+  }
+  
+  .about-1st-title {
+  	color: #fff;
+  	margin: 0;
+  	font-weight: bold;
+  	letter-spacing: 1px;
+  	color: #c7dbe0;
+  	text-transform: uppercase;
+  }
+  
+  h1.about-title {
+  	color: #fff;
+  	text-align: center;
+  	margin: 0;
+  	padding-top: 2px;
+  	margin-bottom: 5px;
+  }
+  
+  
+ hr.about-box-hr{
+ 	border: 1px dashed #9ebcc4;
+ 	width: 60%;
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ }
+  
+
+.cb-99 h5 {
+	color: #ccc;
+}
+
+
+
+/* Content block 100 - about.html*/
+
+.cb-100 {
+  padding: 0px 0 80px 0;
+  margin-top: -30px;
+}
+
+.cb-100 h1 {
+font-weight: 300;
+font-size: 1.7142857143em; /* 24px / 14px */
+padding-bottom: 12px;
+}
+
+.about-quote {
+	font-size: 1.8em;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1.6;
+	text-align: center;
+	width:70%;"
+}
+
+p.p-quote {
+	color:#ccc;
+	letter-spacing: 0.2px;
+	font-style:italic;
+	font-family:Georgia, serif;
+}
+
 /* Footer */
 
 footer {
@@ -484,13 +601,13 @@ background-size: 100%;
   
  /* About us page */
  
- .team-wrap{
- 	margin:0 auto;
+ .team-wrap {
+ 	margin: 0 auto;
  	position: relative;
  	width: 1140px;
  }
  
- .team-ol{
+ .team-ol {
  	padding: 0;
  	margin: 0;
  	margin: 0 auto;
@@ -500,10 +617,10 @@ background-size: 100%;
  .team-ol li {
  	list-style-type:none;
  	padding: 0;
- 	margin: 0;
+ 	margin: 0 auto 60px auto;
  	width: 320px;
  	float: left;
- 	margin-right: 80px;
+ 	margin-right: 89px;
  }
  
  .team-img {
@@ -559,7 +676,7 @@ h1.marginbottom-0 {
 
 
 .team-desc {
-	font-size: 0.8125em;
+	font-size: 0.8325em;
 	text-transform: none;
 	font-weight: 300;
 	color: #b5b5b5;
@@ -580,6 +697,13 @@ hr.team-hr {
 	border: 0;
 	margin-bottom: 5px;
 	padding-bottom: 0;
+}
+
+span.contact-header {
+	color:#1da4db;
+	font-size: 1.2em;
+	text-transform:uppercase; 
+	margin-left: 20px;
 }
 
 .contact-add-box .contact-map-add{
@@ -618,6 +742,10 @@ img.contact-map-style {
 
 .contact-map-add {
 	padding: 30px;
+}
+
+.marginright-40 {
+  margin-right:40px;
 }
 
 /* Buttons */
